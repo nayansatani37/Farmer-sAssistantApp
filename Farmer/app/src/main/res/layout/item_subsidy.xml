@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="12dp"
+    android:layout_margin="10dp"
+    android:elevation="90dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/cardvie_back"
+        android:padding="10dp">
+
+        
+        <TextView
+            android:id="@+id/sub_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sub_Name"
+            android:textSize="40dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#fffF"
+            android:gravity="center"
+            android:fontFamily="@font/aclonica"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Sub_Description"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:fontFamily="@font/aclonica"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/sub_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sub_Desc"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Sub_Limit_per_year_for_one_person"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:fontFamily="@font/aclonica"
+            />
+
+        <TextView
+            android:id="@+id/sub_limitperyear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Limit per year"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Sub_Starting_Date_for_registration"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/aclonica"
+            />
+        <TextView
+            android:id="@+id/sub_startingdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Starting Date"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Sub_Ending_Date_for_registration"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/aclonica"
+            />
+        <TextView
+            android:id="@+id/sub_endingdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ending date"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Sub_Required_forms_documets"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/aclonica"
+            />
+        <TextView
+            android:id="@+id/sub_requiredform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Required form"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Sub_Who_can_take_benifits"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/aclonica"
+            />
+
+        <TextView
+            android:id="@+id/sub_whocanget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Who can get"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

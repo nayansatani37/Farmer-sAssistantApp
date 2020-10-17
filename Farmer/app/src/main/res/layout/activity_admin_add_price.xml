@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminAddPrice"
+    android:padding="20dp"
+    android:background="@drawable/back_yellow">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/txtcomprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Market Comondity Price"
+        android:textSize="30sp"
+        android:gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* Must enter price in Gujarati language"
+            android:textSize="10sp"
+            android:textColor="@color/white"
+            android:gravity="center" />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/spinCom"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/spinner_background"
+            style="@style/mySpinnerStyle"
+            />
+
+
+    <LinearLayout
+        android:id="@+id/llahmedabad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ahmedabad"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/ahmedabad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Price"
+            android:textSize="18sp"
+            android:inputType="number"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llrajkot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rajkot"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/rajkot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Price"
+            android:textSize="18sp"
+            android:inputType="number"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llsurat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Surat"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/surat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Price"
+            android:textSize="18sp"
+            android:inputType="number"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llvadodara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vadodara"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/vadodara"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Price"
+            android:textSize="18sp"
+            android:inputType="number"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llamreli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amreli"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/amreli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Price"
+            android:textSize="18sp"
+            android:inputType="number"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llbharuch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bharuch"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/bharuch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Price"
+            android:textSize="18sp"
+            android:inputType="number"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llsurendranagar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Surendranagar"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/surendranagar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Price"
+            android:textSize="18sp"
+            android:inputType="number"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llvapi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vapi"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/vapi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Price"
+            android:textSize="18sp"
+            android:inputType="number"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llporbandar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Porbandar"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/porbandar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Price"
+            android:textSize="18sp"
+            android:inputType="number"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lldang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dang"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/dang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Price"
+            android:textSize="18sp"
+            android:inputType="number"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llanand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Anand"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/anand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Price"
+            android:textSize="18sp"
+            android:inputType="number"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llbhavnagar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bhavnagar"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/bhavnagar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Price"
+            android:textSize="18sp"
+            android:inputType="number"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lljunagadh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Junagadh"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/junagadh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Price"
+            android:textSize="18sp"
+            android:inputType="number"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnviewMarket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Add prices"
+        android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <string name="app_name">ખેડૂતનો સહાયક</string>-->
+    <string name="Welcome_msg">સ્વાગત</string>
+
+
+    <!--Application Name-->
+    <string name="app_name">ફાર્મર્સ આસિસ્ટન્ટ</string>
+
+    <!--Main Login Page-->
+    <string name="Admin_Login">એડમીન લૉગિન </string>
+    <string name="Expert_Login">નિષ્ણાત લૉગિન </string>
+    <string name="Farmer_Login">ખેડૂત લૉગિન </string>
+
+
+    <!--for main activity-->
+    <string name="app_close_alert_msg">શું તમે ખરેખર બહાર નીકળવા માંગો છો?</string>
+    <string name="alert_yes">હા</string>
+    <string name="alert_no">હમણાં નહીં</string>
+
+    <string name="market_rate">બજાર ભાવ</string>
+    <string name="check_subsidy">સબસિડી જુઓ</string>
+    <string name="post_query">પ્રશ્નો પૂછો</string>
+    <string name="get_tips">સલાહ જુઓ</string>
+
+    <!--Menu options-->
+    <string name="home">ઘર</string>
+    <string name="logout">લોગ આઉટ</string>
+    <string name="share">મોકલો</string>
+    <string name="rate_us">રેટિંગ આપો</string>
+
+
+    <!--Login page-->
+    <string name="Hello_fellow_Welcome_Back">હેલ્લો, ફરીથી સ્વાગત છે તમારું</string>
+    <string name="Sign_In_to_continue">આગળ વધવા સાઇનઈન કરો </string>
+    <string name="Mobile_No">મોબાઈલ નંબર</string>
+    <string name="Password">પાસવર્ડ </string>
+    <string name="Remember_Me">મને યાદ રાખો</string>
+    <string name="Forgate_Password">પાસવર્ડ ભૂલી ગયા છો ?</string>
+    <string name="GO">લોગઈન કરો</string>
+    <string name="New_User">નવા છો ? જોડાવો </string>
+
+
+
+    <!--Regster page-->
+    <string name="Firstname">નામ </string>
+    <string name="Lastname">અટક/સરનેમ </string>
+    <string name="Email">ઈ-મેઈલ </string>
+    <string name="register">જોડાઓ </string>
+    <string name="Already_have_an_Account">પહેલીથી જોડાયેલા છો ? લોગઈન કરો. </string>
+
+    <!--RatingBar Dialog-->
+    <string name="Rate">રેટિંગ આપો </string>
+    <string name="Thankrate">અમને રેટિંગ આપવા બદલ આભાર, તે તમને શ્રેષ્ઠ સેવા પ્રદાન કરવામાં મદદ કરશે</string>
+    <string name="OK">બરાબર </string>
+    <string name="nothanks">ના આભાર</string>
+
+
+    <!--Subsidy item Page-->
+    <string name="Sub_Description">વિસ્તૃત વર્ણન : </string>
+    <string name="Sub_Limit_per_year_for_one_person">એક વ્યક્તિ માટે દર વર્ષે મર્યાદા:</string>
+    <string name="Sub_Starting_Date_for_registration">નોંધણી માટે પ્રારંભ તારીખ : </string>
+    <string name="Sub_Ending_Date_for_registration">નોંધણી માટેની સમાપ્તિ તારીખ : </string>
+    <string name="Sub_Required_forms_documets">આવશ્યક ફોર્મ / દસ્તાવેજો : </string>
+    <string name="Sub_Who_can_take_benifits">બેનિફિટ કોણ લઈ શકે છે? : </string>
+
+
+    <!--City Name-->
+    <string name="Ahmedabad">અમદાવાદ   :</string>
+    <string name="Amreli">અમરેલી :</string>
+    <string name="Anand">આણંદ  :</string>
+    <string name="Bharuch">ભરૂચ  :</string>
+    <string name="Bhavnagar">ભાવનગર  :</string>
+    <string name="Dang">ડાંગ  :</string>
+    <string name="Junagadh">જુનાગઢ  :</string>
+    <string name="Porbandar">પોરબંદર  :</string>
+    <string name="Rajkot">રાજકોટ  :</string>
+    <string name="Surat">સુરત  :</string>
+    <string name="Surendranagar">સુરેન્દ્રનગર  :</string>
+    <string name="Vadodara">વડોદરા  :</string>
+    <string name="Vapi">વાપી  :</string>
+
+
+    <!--Forget Password-->
+    <string name="Forget_password">પાસવર્ડ ભૂલી ગયા ?</string>
+    <string name="Forget_Mobile_Number">મોબાઈલ નંબર </string>
+    <string name="via_sms">મોબાઈલ મેસેજ દ્વારા</string>
+    <string name="make_selection">પસંદગી કરો</string>
+    <string name="make_sel_des">પસંદગી કરો કે જેના દ્વારા તમે તમારો પાસવર્ડ ફરીથી સેટ કરવા માંગો છો</string>
+    <string name="Forget_pass_desc">તમારો મોબાઇલ નંબર પ્રદાન કરો જેના માટે તમે તમારો પાસવર્ડ ફરીથી સેટ કરવા માંગો છો.</string>
+    <string name="enter_otp">તમે તમારા મોબાઇલ પર મેળવો તે વન ટાઇમ પાસવર્ડ દાખલ કરો</string>
+    <string name="new_credit">નવું દાખલ કરો</string>
+    <string name="your_identity">તમારી ઓળખાન થઈ ગઈ છે, નવા પાસવર્ડને સેટ કરો</string>
+    <string name="New_password">નવો  પાસવર્ડ </string>
+    <string name="Conf_password">પાસવર્ડની પુષ્ટિ કરો</string>
+    <string name="change">બદલો </string>
+    <string name="next">આગળ વધો </string>
+    <string name="login">લૉગિન કરો</string>
+    <string name="pass_updated">પાસવર્ડ સુધારાઈ ગયો </string>
+    <string name="your_pass_updated">તમારો પાસવર્ડ અપડેટ કરવામાં આવ્યો છે</string>
+
+    <!--Commodity/price check-->
+    <string name="sel_Com">ભાવ જોવા માટે પાકની પસંદગી કરો </string>
+    <string name="check_price">ભાવ તપાસો</string>
+
+
+
+    <!--Chat Tab-->
+    <string name="chats_tab">ચેટ </string>
+    <string name="experts_tab">નિષ્ણાતો</string>
+    <string name="empty_send_toast">કૃપા કરીને મોકલવા માટે કંઈક લખો</string>
+
+
+</resources>

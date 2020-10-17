@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminAddNewUser"
+    android:padding="20dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/addexperttitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Experts"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:fontFamily="@font/aclonica"/>
+    <EditText
+        android:id="@+id/add_expfirstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:hint="Enter Experts firstname"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:layout_below="@+id/addexperttitle"
+        />
+    <EditText
+        android:id="@+id/add_explastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:hint="Enter Experts lastname"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:layout_below="@+id/add_expfirstname"/>
+    <EditText
+        android:id="@+id/add_expemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:hint="Enter Experts email"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/add_explastname"/>
+    <EditText
+        android:id="@+id/add_expmobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:hint="Enter Experts mobile"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:inputType="phone"
+        android:layout_below="@+id/add_expemail"/>
+    <EditText
+        android:id="@+id/add_exppassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:hint="Enter Experts password"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:layout_below="@+id/add_expmobile"/>
+    <EditText
+        android:id="@+id/add_expaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#000"
+        android:textColor="#000"
+        android:hint="Enter Experts Address"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:inputType="textMultiLine"
+        android:layout_below="@+id/add_exppassword"/>
+
+    <Button
+        android:id="@+id/btnadd_expert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#47A4EF"
+        app:backgroundTint="#47A4EF"
+        android:layout_marginTop="50dp"
+        android:text="ADD"
+        android:onClick="addExpertClick"
+        android:textColor="#000"
+        android:layout_below="@+id/add_expaddress"/>
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

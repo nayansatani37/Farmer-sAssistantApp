@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminAddGetTips"
+    android:padding="10dp"
+    android:background="@drawable/cardvie_back">
+
+    <EditText
+        android:id="@+id/add_tiptititle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"
+        android:hint="Enter tips title"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/add_tipdesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"
+        android:hint="Enter tips discription"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:inputType="textMultiLine"
+        android:layout_below="@+id/add_tiptititle"/>
+
+    <Button
+        android:id="@+id/btnadd_gettip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:backgroundTint="#FFFFFF"
+        android:layout_marginTop="500dp"
+        android:text="ADD"
+        android:onClick="addTipClick"
+        android:textColor="#000"/>
+
+</RelativeLayout>

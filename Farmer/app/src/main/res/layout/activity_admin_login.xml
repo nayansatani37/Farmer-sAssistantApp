@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminLogin"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/imageCamera"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/farmer"/>
+    <TextView
+        android:id="@+id/logo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Admin"
+        android:textSize="40sp"
+        android:textColor="#000"
+        android:fontFamily="@font/aclonica"/>
+
+    <TextView
+        android:id="@+id/welcomemsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Sign_In_to_continue"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:fontFamily="@font/antic" />
+
+    <LinearLayout
+        android:id="@+id/linear_design"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/amobile"
+            android:hint="@string/Mobile_No"
+
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/adminnumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/apass"
+            android:hint="@string/Password"
+            app:passwordToggleEnabled="true"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/adminpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/acheckRemember"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:background="#00000000"
+                android:text="@string/Remember_Me"
+                android:layout_gravity="left"
+                android:elevation="0dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_margin="5dp"/>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/loginbuttonadmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#FFF000"
+            android:onClick="loginAdmin"
+            android:text="@string/GO"
+            android:textSize="20dp"
+            android:textColor="#FFF" />
+
+
+    </LinearLayout>
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="15dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:background="@drawable/whitecircle"-->
+<!--        android:gravity="center"-->
+<!--        android:elevation="8dp">-->
+
+<!--        <ProgressBar-->
+<!--            android:id="@+id/progress"-->
+<!--            android:layout_width="30dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            />-->
+
+<!--    </LinearLayout>-->
+
+
+</LinearLayout>

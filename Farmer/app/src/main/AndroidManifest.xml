@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.farmer">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ForgetSuccessMessageExpert"></activity>
+        <activity android:name=".SetNewPasswordExpert" />
+        <activity android:name=".OTPActivityForgetPasswordExpert" />
+        <activity android:name=".ForgetPasswordExpert" />
+        <activity android:name=".MessageActivityExpert" />
+        <activity android:name=".ExpertChatHome" />
+        <activity android:name=".ExpertHome" />
+        <activity android:name=".ExpertLogin" />
+        <activity android:name=".AdminViewFarmers" />
+        <activity android:name=".AdminManageMarketRate" />
+        <activity android:name=".FarmerMarketRate" />
+        <activity android:name=".AdminAddPrice" />
+        <activity android:name=".AdminAddMarketRate" />
+        <activity android:name=".MessageActivityFarmer" />
+        <activity android:name=".AdminAddNewAdmin" />
+        <activity android:name=".ForgetSuccessMessage" />
+        <activity android:name=".SetNewPassword" />
+        <activity android:name=".OTPActivityForgetPassword" />
+        <activity android:name=".MakeSelection" />
+        <activity android:name=".ForgetPasswordFarmer" />
+        <activity android:name=".AdminLogin" />
+        <activity android:name=".AdminManageTipsHome" />
+        <activity android:name=".AdminRemoveTips" />
+        <activity android:name=".AdminManageSubsidyHome" />
+        <activity android:name=".AdminManageExpertHome" />
+        <activity android:name=".AdminRemoveSubsidy" />
+        <activity android:name=".AdminRemoveExpert" />
+        <activity android:name=".AllLoginHome" />
+        <activity android:name=".ManageExperts" />
+        <activity android:name=".AdminAddNewUser" />
+        <activity android:name=".ChatTabsHome" />
+        <activity android:name=".AdminAddGetTips" />
+        <activity
+            android:name=".Subsidy_Desciption_Activity"
+            android:parentActivityName=".subsidy" />
+        <activity android:name=".AdminAddSubsidy" />
+        <activity android:name=".AdminHome" />
+        <activity android:name=".OTPActivity" />
+        <activity
+            android:name=".GetTips"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Queries"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MarketRate"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".Register" />
+        <activity android:name=".intro_theme_activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".subsidy"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

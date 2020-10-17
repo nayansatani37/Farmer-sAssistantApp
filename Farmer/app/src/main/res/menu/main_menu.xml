@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home"
+            />
+        <item
+            android:id="@+id/nav_check_subsydies"
+            android:icon="@drawable/icons_subsidy"
+            android:title="@string/check_subsidy" />
+        <item
+            android:id="@+id/nav_market_rate"
+            android:icon="@drawable/icons_market_price"
+            android:title="@string/market_rate" />
+        <item
+            android:id="@+id/nav_query"
+            android:icon="@drawable/icons_query"
+            android:title="@string/post_query" />
+        <item
+            android:id="@+id/nav_get_tips"
+            android:icon="@drawable/icons_tips_tricks"
+            android:title="@string/get_tips" />
+    </group>
+
+    <item android:title="Profile" >
+    <menu>
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_login"
+                android:title="Login" />
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_profile"
+                android:title="Profile" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/logout" />
+        </group>
+    </menu>
+    </item>
+
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="@string/share" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_rate"
+                android:title="@string/rate_us" />
+        </menu>
+    </item>
+
+
+</menu>

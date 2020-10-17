@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/editTextSubsidyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Subsidy Name"
+        android:editable="false"
+
+        />
+    <EditText
+        android:id="@+id/editTextSubsidyDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Subsidy Details" />
+    <EditText
+        android:id="@+id/editTextRequiredForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Required Documents Details" />
+    <EditText
+        android:id="@+id/editTextWhocanGet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Who can get benifits" />
+    <EditText
+        android:id="@+id/editTextLimitPerYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Limit per Person and Year" />
+    <EditText
+        android:id="@+id/editTextStartingDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Starting Date"
+        android:editable="false"/>
+    <EditText
+        android:id="@+id/editTextEndingDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:hint="Enter Ending Date" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonUpdateSubsidy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Update" />
+
+        <Button
+            android:id="@+id/buttonDeleteSubsidy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:text="Delete" />
+
+    </LinearLayout>
+</LinearLayout>

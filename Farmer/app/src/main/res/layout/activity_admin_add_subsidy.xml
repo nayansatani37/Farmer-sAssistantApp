@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminAddSubsidy"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/lblsub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Subsidy Details"
+        android:fontFamily="@font/aclonica"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"/>
+    <TextView
+        android:id="@+id/txtgujsub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* Must add commodity in Gujarati"
+        android:textSize="10sp"
+        android:textColor="#ff00"
+        android:layout_below="@+id/lblsub"
+        />
+    <EditText
+        android:id="@+id/subname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Subsidy name"
+        android:layout_marginTop="40dp"/>
+    <EditText
+        android:id="@+id/subDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Details"
+        android:layout_below="@+id/subname"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/whocanget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Who can get"
+        android:inputType="textMultiLine"
+        android:layout_below="@+id/subDetails"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/requiredform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter required form details"
+        android:inputType="textMultiLine"
+        android:layout_below="@+id/whocanget"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/limitperyear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Limit per year"
+        android:inputType="number"
+        android:layout_below="@+id/requiredform"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/startingdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Starting Date"
+        android:layout_below="@+id/limitperyear"
+        android:clickable="true"
+        android:editable="false"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/endingdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Ending Date"
+        android:layout_below="@+id/startingdate"
+        android:clickable="true"
+        android:editable="false"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnaddsub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/endingdate"
+        android:text="Add"
+        android:textSize="20sp"
+        android:onClick="addSubClick"
+        android:layout_marginTop="30dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Farmers Assistant</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Open navigation close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+    <!--Main Login Page-->
+    <string name="Admin_Login">Admin Login</string>
+    <string name="Expert_Login">Expert Login</string>
+    <string name="Farmer_Login">Farmer Login</string>
+
+
+
+    <!--Home page Login String-->
+    <string name="Welcome_msg">Welcome</string>
+    <string name="app_close_alert_msg">Do you really want to exit?</string>
+    <string name="alert_yes">Yes</string>
+    <string name="alert_no">No</string>
+
+    <string name="market_rate">Market Rate</string>
+    <string name="check_subsidy">Check Subsidy</string>
+    <string name="post_query">Post Query</string>
+    <string name="get_tips">Get Tips</string>
+
+
+    <!--Menu options-->
+    <string name="home">Homet</string>
+    <string name="logout">LogOut</string>
+    <string name="share">Share</string>
+    <string name="rate_us">Rate Us</string>
+
+    <!--Login Pgae-->
+    <string name="Hello_fellow_Welcome_Back">Hello fellow, Welcome Back</string>
+    <string name="Sign_In_to_continue">Sign In to continue</string>
+    <string name="Mobile_No">Mobile No</string>
+    <string name="Password">Password</string>
+    <string name="Remember_Me">Remember Me</string>
+    <string name="Forgate_Password">Forgate Password?</string>
+    <string name="GO">GO</string>
+    <string name="New_User">New User? SIGN UP</string>
+
+
+    <!--Regster page-->
+    <string name="Firstname">Firstname</string>
+    <string name="Lastname">Lastname</string>
+    <string name="Email">Email</string>
+    <string name="register">Register</string>
+    <string name="Already_have_an_Account">Already have an Account? LogIn</string>
+
+    <!--RatingBar Dialog-->
+    <string name="Rate">Rate Us</string>
+    <string name="Thankrate">Thank you for rating us , it will help us to provide you the best service</string>
+    <string name="OK">OK</string>
+    <string name="nothanks">No,Thanks</string>
+
+    <!--Subsidy item Page-->
+    <string name="Sub_Description">Description : </string>
+    <string name="Sub_Limit_per_year_for_one_person">Limit per year for one person:</string>
+    <string name="Sub_Starting_Date_for_registration">Starting Date for registration : </string>
+    <string name="Sub_Ending_Date_for_registration">Ending Date for registration : </string>
+    <string name="Sub_Required_forms_documets">Required form/documets : </string>
+    <string name="Sub_Who_can_take_benifits">Who can take benifits ? : </string>
+
+
+    <!--City Name-->
+    <string name="Ahmedabad">Ahmedabad :</string>
+    <string name="Amreli">Amreli :</string>
+    <string name="Anand">Anand :</string>
+    <string name="Bharuch">Bharuch :</string>
+    <string name="Bhavnagar">Bhavnagar :</string>
+    <string name="Dang">Dang :</string>
+    <string name="Junagadh">Junagadh :</string>
+    <string name="Porbandar">Porbandar :</string>
+    <string name="Rajkot">Rajkot :</string>
+    <string name="Surat">Surat :</string>
+    <string name="Surendranagar">Surendranagar :</string>
+    <string name="Vadodara">Vadodara :</string>
+    <string name="Vapi">Vapi :</string>
+
+    <!--Forget Password-->
+    <string name="Forget_password">Forget Password</string>
+    <string name="Forget_Mobile_Number">Mobile Number</string>
+    <string name="via_sms">Via SMS</string>
+    <string name="make_selection">MAKE SELECTION</string>
+    <string name="make_sel_des">Make the selection via which you want to reset your password</string>
+    <string name="Forget_pass_desc">provide your mobile number for which you want to reset your password</string>
+    <string name="enter_otp">Enter One Time Password that you get on your Mobile</string>
+    <string name="new_credit">NEW CREDENTIALS</string>
+    <string name="your_identity">YOUR IDENTITY HAS BEEN VERIFIED SET YOUR NEW PASSWORD</string>
+    <string name="New_password">New Password</string>
+    <string name="Conf_password">Confirm Password</string>
+    <string name="change">Change</string>
+    <string name="next">NEXT</string>
+    <string name="login">Login</string>
+    <string name="pass_updated">PASSWORD UPDATED</string>
+    <string name="your_pass_updated">your password has been updated</string>
+
+
+    <!--Commodity/price check-->
+    <string name="sel_Com">Select Commodity to check rate</string>
+    <string name="check_price">CHECK PRICE</string>
+
+    <!--Chat Tab-->
+    <string name="chats_tab">Chats</string>
+    <string name="experts_tab">Chats</string>
+    <string name="empty_send_toast">Please type something to send</string>
+
+
+
+
+
+
+
+</resources>

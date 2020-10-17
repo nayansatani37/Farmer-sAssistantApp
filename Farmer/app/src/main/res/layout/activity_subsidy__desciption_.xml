@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Subsidy_Desciption_Activity"
+    android:orientation="vertical"
+    android:background="@drawable/cardvie_back">
+
+    <include
+        android:id="@+id/toolbar_back"
+        layout="@layout/toolbar_back"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/icons_back"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+    <TextView
+        android:id="@+id/sub_titletxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sub_Name"
+        android:textSize="40dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#fffF"
+        android:gravity="center"
+        android:fontFamily="@font/aclonica"
+        />
+
+    <TextView
+        android:id="@+id/sub_desctxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sub_Desc"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/whocangettxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="For more click here !"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        />
+    </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

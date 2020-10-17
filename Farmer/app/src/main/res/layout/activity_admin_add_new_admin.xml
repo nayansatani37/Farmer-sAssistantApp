@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminAddNewAdmin"
+    android:padding="20dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/addadmintitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add New Admin"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:fontFamily="@font/aclonica"/>
+            <EditText
+                android:id="@+id/add_adminfirstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#000"
+                android:textColor="#000"
+                android:hint="Enter Experts firstname"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:inputType="text"
+                android:layout_below="@+id/addadmintitle"
+                />
+            <EditText
+                android:id="@+id/add_adminlastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#000"
+                android:textColor="#000"
+                android:hint="Enter Experts lastname"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:inputType="text"
+                android:layout_below="@+id/add_adminfirstname"/>
+            <EditText
+                android:id="@+id/add_adminemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#000"
+                android:textColor="#000"
+                android:hint="Enter Experts email"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:inputType="textEmailAddress"
+                android:layout_below="@+id/add_adminlastname"/>
+            <EditText
+                android:id="@+id/add_adminmobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#000"
+                android:textColor="#000"
+                android:hint="Enter Experts mobile"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:inputType="phone"
+                android:layout_below="@+id/add_adminemail"/>
+            <EditText
+                android:id="@+id/add_adminpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#000"
+                android:textColor="#000"
+                android:hint="Enter Experts password"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:inputType="textPassword"
+                android:layout_below="@+id/add_adminmobile"/>
+
+            <Button
+                android:id="@+id/btnaddnewadmin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#47A4EF"
+                app:backgroundTint="#47A4EF"
+                android:layout_marginTop="50dp"
+                android:text="ADD"
+                android:onClick="addAdminClick"
+                android:textColor="#000"
+                android:layout_below="@+id/add_adminpassword"/>
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>
