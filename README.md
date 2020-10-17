@@ -9,8 +9,8 @@ daily market rate(It will be improve) and Question /Answer section where farmers
 
 
 # ScreenShots
-<br>
-<img src="https://github.com/nayansatani37/Farmer-sAssistantApp/blob/master/Farmer%20Screenshots/Admin%20Ad%20New%20Commodity.png" width="200" height="400" border="1">
+
+<img src="https://github.com/nayansatani37/Farmer-sAssistantApp/blob/master/Farmer%20Screenshots/Admin%20Ad%20New%20Commodity.png" width="200" height="400">
 <img src="https://github.com/nayansatani37/Farmer-sAssistantApp/blob/master/Farmer%20Screenshots/Admin%20Add%20Experts.png" width="250" height="400">
 <img src="https://github.com/nayansatani37/Farmer-sAssistantApp/blob/master/Farmer%20Screenshots/Admin%20Add%20New%20Subsidy.png" width="250" height="400">
 <img src="https://github.com/nayansatani37/Farmer-sAssistantApp/blob/master/Farmer%20Screenshots/Admin%20Add%20Price.png" width="250" height="400">
